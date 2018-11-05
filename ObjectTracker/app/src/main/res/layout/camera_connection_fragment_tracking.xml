@@ -22,7 +22,7 @@
     <com.ding.objecttracker.AutoFitTextureView
         android:id="@+id/texture"
         android:layout_width="wrap_content"
-        android:layout_height="525dp" />
+        android:layout_height="600dp" />
 
       <com.ding.objecttracker.OverlayView
           android:id="@+id/tracking_overlay"

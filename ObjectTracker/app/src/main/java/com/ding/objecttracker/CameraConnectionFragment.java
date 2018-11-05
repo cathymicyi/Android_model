@@ -78,7 +78,7 @@ public class CameraConnectionFragment extends Fragment {
     private int maxRealRadio;
     Handler mUIHandler;
 
-    private static final int MINIMUM_PREVIEW_SIZE = 680;
+    private static final int MINIMUM_PREVIEW_SIZE = 1200;
     private static final int MOVE_FOCK = 2;
 
     private static final SparseIntArray ORIENTATIONS = new SparseIntArray();
@@ -713,6 +713,3 @@ public class CameraConnectionFragment extends Fragment {
         }
     }
 }
-
-
-

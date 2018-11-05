@@ -61,15 +61,15 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
   private static final String MB_LOCATION_FILE =
       "file:///android_asset/multibox_location_priors.txt";
 
-  private static final int TF_OD_API_INPUT_SIZE = 640;
+  private static final int TF_OD_API_INPUT_SIZE = 300;
   private static final String TF_OD_API_MODEL_FILE =
-      "file:///android_asset/ssd_ftp2.pb";
+      "file:///android_asset/ssd300_fix.pb";
   private static final String TF_OD_API_LABELS_FILE = "file:///android_asset/label.txt";
 //    private static final String TF_OD_API_MODEL_FILE =
 //            "file:///android_asset/frozen_inference_graph.pb";
 //    private static final String TF_OD_API_LABELS_FILE = "file:///android_asset/raccoonlabel.txt";
 
-  private static final int INPUT_SIZE = 224;
+  private static final int INPUT_SIZE = 300;
   private static final int IMAGE_MEAN = 117;
   private static final float IMAGE_STD = 1;
   private static final String INPUT_NAME = "input";
@@ -106,7 +106,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
 
   private static final boolean MAINTAIN_ASPECT = MODE == DetectorMode.YOLO;
 
-  private static final Size DESIRED_PREVIEW_SIZE = new Size(640, 480);
+  private static final Size DESIRED_PREVIEW_SIZE = new Size(480, 480);
 
   private static final boolean SAVE_PREVIEW_BITMAP = false;
   private static final float TEXT_SIZE_DIP = 10;
